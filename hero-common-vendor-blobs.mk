@@ -57,18 +57,10 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
   vendor/samsung/hero-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
   vendor/samsung/hero-common/proprietary/lib64/libexynoscamera.so:system/lib64/libexynoscamera.so \
-  vendor/samsung/hero-common/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-  vendor/samsung/hero-common/proprietary/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
   vendor/samsung/hero-common/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
   vendor/samsung/hero-common/proprietary/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
   vendor/samsung/hero-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
   vendor/samsung/hero-common/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
-  vendor/samsung/hero-common/proprietary/lib/libcsc.so:system/lib/libcsc.so \
-  vendor/samsung/hero-common/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
-  vendor/samsung/hero-common/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-  vendor/samsung/hero-common/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
-  vendor/samsung/hero-common/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-  vendor/samsung/hero-common/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
   vendor/samsung/hero-common/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
   vendor/samsung/hero-common/proprietary/lib64/libuniapi.so:system/lib64/libuniapi.so \
   vendor/samsung/hero-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
@@ -179,17 +171,14 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:system/lib/omx/libOMX.Exynos.VP9.Encoder.so \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-  vendor/samsung/hero-common/proprietary/bin/rild:system/bin/rild \
-  vendor/samsung/hero-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-  vendor/samsung/hero-common/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/samsung/hero-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
   vendor/samsung/hero-common/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
   vendor/samsung/hero-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-  vendor/samsung/hero-common/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
-  vendor/samsung/hero-common/proprietary/lib64/libril.so:system/lib64/libril.so \
   vendor/samsung/hero-common/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
   vendor/samsung/hero-common/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
   vendor/samsung/hero-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
+  vendor/samsung/hero-common/proprietary/lib/libprotobuf-cpp-shim.so:system/lib/libprotobuf-cpp-shim.so \
+  vendor/samsung/hero-common/proprietary/lib64/libprotobuf-cpp-shim.so:system/lib64/libprotobuf-cpp-shim.so \
   vendor/samsung/hero-common/proprietary/lib64/libhr.so:system/lib64/libhr.so \
   vendor/samsung/hero-common/proprietary/etc/lhd.conf:system/etc/lhd.conf \
   vendor/samsung/hero-common/proprietary/bin/lhd:system/bin/lhd \
@@ -270,9 +259,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
   vendor/samsung/hero-common/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
   vendor/samsung/hero-common/proprietary/lib/libsxqk.so:system/lib/libsxqk.so \
-  vendor/samsung/hero-common/proprietary/lib/libion.so:system/lib/libion.so \
   vendor/samsung/hero-common/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
-  vendor/samsung/hero-common/proprietary/lib64/libion.so:system/lib64/libion.so \
   vendor/samsung/hero-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
   vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_apsta.bin_b1:system/etc/wifi/bcmdhd_apsta.bin_b1 \
   vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_apsta.bin_b90s_b1:system/etc/wifi/bcmdhd_apsta.bin_b90s_b1 \
